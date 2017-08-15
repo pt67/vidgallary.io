@@ -1,0 +1,60 @@
+<html>
+<head><title>VideosGallary</title></head>
+<body>
+
+<style>
+img{
+border:1px solid red;
+}
+img:hover{
+opacity:0.5;
+}
+body{
+background:#CCC;
+max-width:100%;
+margin:0;
+}
+video{
+border:1px solid red;
+
+}
+contents{
+padding:5% 10% 0%;
+display:flex;
+flex-direction:row;
+}
+ol{
+margin-top:5%;
+}
+ul{
+margin:3px;
+}
+
+</style>
+<contents>
+<video id ="myvideo" src="https://youtu.be/d2AgV_6HkDI" height="500px" width="700px" controls>
+</video><br>
+<ol>
+<ul><a onclick="Selectvid1()" href="#"><img src="vid.png" height="200px" width="300px"></a></ul>
+<ul><a onclick="Selectvid2()" href="#"><img src="vid.png" height="200px" width="300px"></a></ul>
+<ul><a onclick="Selectvid3()" href="#"><img src="vid.png" height="200px" width="300px"></a></ul>
+<ul><a onclick="Selectvid4()" href="#"><img src="vid.png" height="200px" width="300px"></a></ul>
+</ol>
+</contents>
+<script>
+function Selectvid1(){
+document.getElementById("myvideo").src="https://youtu.be/d2AgV_6HkDI";
+}
+function Selectvid2(){
+document.getElementById("myvideo").src="https://youtu.be/D9xaGal6cEw";
+}
+function Selectvid3(){
+document.getElementById("myvideo").src="https://youtu.be/V2hyLO7LtHE";
+}
+function Selectvid4(){
+document.getElementById("myvideo").src="https://youtu.be/x5UGTfL9Mw0";
+}
+
+</script>
+</body>
+</html>
