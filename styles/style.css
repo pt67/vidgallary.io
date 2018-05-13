@@ -1,0 +1,116 @@
+img{
+    border:1px solid red;
+    }
+    img:hover{
+    opacity:0.5;
+    }
+    body{
+    font-family:sarif;
+    background:#CCC;
+    max-width:100%;
+    margin:0;
+    }
+    header{
+      padding:1% 10% 1% 10%;
+      box-shadow:4px 3px 3px #333;
+      background:#fff;
+    }
+    header h1{padding:0px 10px 0px 10px;}
+    header h1::first-letter{
+      color:red;
+    }
+    main{
+      background:#fff;
+      padding:2%;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+    main video{
+      box-sizing: border-box;
+      white-space: pre-wrap;
+      background:#333;
+      margin-top:15px;
+      box-shadow:2px 2px 2px 2px black;
+    }
+    article{
+      padding:10px 0px 10px 0px;
+    }
+    .users{
+      box-shadow: 1px 1px 1px 1px gray;
+      padding:10px;
+      margin-bottom:10px;
+    }
+    aside{
+      background:#fff;
+      margin-top:0;
+      padding-left:0;
+      box-shadow:3px 3px 3px black;
+    }
+    aside video{
+      margin-left:0;
+      box-shadow:2px 2px 2px 2px black;
+      margin-top:15px;
+      background:#333;
+    }
+    aside video:hover{
+      opacity:0.8;
+    }
+      hr{
+       color:red; 
+      }
+    video{
+    border:none;
+   
+    }
+    contents{
+    padding:1% 10% 0%;
+    display:flex;
+    flex-direction:row;
+    vertical-align: none;
+    justify-content: center;
+    }
+    ol{
+    margin-top:0;
+    margin-left:0;
+    padding-left:0;
+
+    }
+    ul{
+    margin-right:15px;
+    margin-left:0;
+    padding-left:0;
+    }
+
+    form textarea{
+      width:500px;
+      height:100px;
+      padding:1%;
+      margin:5px auto 5px auto;
+      resize: none;
+      border:none;
+      outline:1px solid red;
+      border-radius: 10px;
+    }
+    form button{
+      border:none;
+      padding:5px;
+      color:#fff;
+      background:red;
+      border-radius:10px;
+      font-weight: bold;
+      text-align:center;
+      box-shadow:3px 2px 2px gray;
+      cursor:pointer;
+    }
+
+
+
+    footer{
+      padding:1% 10% 1% 10%;
+      border-top:1px solid red;
+      margin-top:5%;
+      background:#fff;
+    }
+    footer p{
+      padding:10px;
+      
+    }
