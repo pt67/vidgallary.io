@@ -1,68 +1,55 @@
 <html>
-<head><title>VideosGallery</title></head>
+<head>
+  <link rel="stylesheet" href="styles/style.css">
+  <title>VideosGallery</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+</head>
 <body>
-<style>
-img{
-border:1px solid red;
-}
-img:hover{
-opacity:0.5;
-}
-body{
-font-family:sarif;
-background:#CCC;
-max-width:100%;
-margin:0;
-}
-  hr{
-   color:red; 
-  }
-video{
-border:none;
-
-}
-contents{
-padding:1% 10% 0%;
-display:flex;
-flex-direction:row;
-}
-ol{
-margin-top:5%;
-}
-ul{
-margin:3px;
-}
-h1{
-  padding-left:10%;
-  color:white;
-  }
-</style>
-  <h1>Video Gallery</h1><hr></hr>
+  <header>
+      <h1>Video Gallery</h1>
+  </header>
+  
 <contents>
 
-<video id ="myvideo" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm.360p.webm" height="500px" width="700px" controls autoplay>
-</video><br>
-<ol>
-  <ul><a onclick="Selectvid1()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Elephant_eating_Yala_Sri_Lanka.ogv/Elephant_eating_Yala_Sri_Lanka.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
-  <ul><a onclick="Selectvid2()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm.360p.webm" height="200px" width="300px"></video></a></ul>
-  <ul><a onclick="Selectvid3()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
-  <ul><a onclick="Selectvid4()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Moving_Octopus_Vulgaris_2005-01-14.ogv/Moving_Octopus_Vulgaris_2005-01-14.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
-</ol>
-</contents>
-<script>
-function Selectvid1(){
-document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Elephant_eating_Yala_Sri_Lanka.ogv/Elephant_eating_Yala_Sri_Lanka.ogv.480p.webm";
-}
-function Selectvid2(){
-document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm.360p.webm";
-}
-function Selectvid3(){
-document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv.480p.webm";
-}
-function Selectvid4(){
-document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Moving_Octopus_Vulgaris_2005-01-14.ogv/Moving_Octopus_Vulgaris_2005-01-14.ogv.480p.webm";
-}
+ <main>
+  <video id ="myvideo" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm.360p.webm" height="500px" width="700px" controls autoplay>
+  </video>
+  <article>
+    <h3>Write Comments</h3>
+    <form>
+      <label>Write comment:</label><br>
+      <textarea type="text" placeholder="Type here..."></textarea><br>
+      <button type="submit">Comment</button>
+    </form>
+  </article>
+  <article>
+      <div class="users">
+          <i class="fa fa-user"></i> <small>owoo nice videos</small>
+      </div>
+     <div class="users">
+        <i class="fa fa-user"></i> <small>keep it up!</small>
+     </div>
+  </article>
 
-</script>
+ 
+ </main>
+ <aside>
+  <ol>
+    <ul>
+      <a onclick="Selectvid1()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Elephant_eating_Yala_Sri_Lanka.ogv/Elephant_eating_Yala_Sri_Lanka.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
+    <ul><a onclick="Selectvid2()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm/Exciting_Elephant_Ride_in_Jaipur_at_Amer_Fort.webm.360p.webm" height="200px" width="300px"></video></a></ul>
+    <ul><a onclick="Selectvid3()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv/Giraffa_camelopardalis_reticulata-atTobuZoo-2012.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
+    <ul><a onclick="Selectvid4()" href="#"><video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Moving_Octopus_Vulgaris_2005-01-14.ogv/Moving_Octopus_Vulgaris_2005-01-14.ogv.480p.webm" height="200px" width="300px"></video></a></ul>
+  </ol>
+ </aside> 
+
+</contents>
+
+<footer>
+  <p>&copy Copyright 2018. Powered by Pk-zone</p>
+</footer>
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
