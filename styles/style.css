@@ -88,7 +88,6 @@ img{
       resize: none;
       border:none;
       outline:1px solid red;
-      border-radius: 10px;
     }
     form button{
       border:none;
@@ -114,3 +113,30 @@ img{
       padding:10px;
       
     }
+
+    /*----- making responsive --------*/
+@media (max-width:600px){
+  main video{
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    background:#333;
+    margin-top:15px;
+    box-shadow:2px 2px 2px 2px black;
+    width:100%;
+    height:200px;
+    overflow:hidden;
+  }
+  aside video{
+    width:100%;
+    margin-left:2%;
+  }
+  contents{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:3%;
+  }
+  form textarea{
+    width:100%;
+  }
+}
