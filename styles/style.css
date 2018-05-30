@@ -64,7 +64,7 @@ img{
       }
     video{
     border:none;
-   
+    object-fit: cover;
     }
     contents{
     padding:1% 10% 0%;
