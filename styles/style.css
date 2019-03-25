@@ -121,7 +121,7 @@ img{
       
     }
 
-    /*----- making responsive --------*/
+   /*----- making responsive --------*/
 @media (max-width:600px){
   main video{
     box-sizing: border-box;
