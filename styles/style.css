@@ -47,6 +47,8 @@ img{
       padding-left:0;
       box-shadow:3px 3px 3px black;
       max-width:360px;
+      height:50%;
+      overflow-y:scroll;
     }
     aside video{
       margin-left:0;
