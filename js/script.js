@@ -10,3 +10,8 @@ document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/c
 function Selectvid4(){
 document.getElementById("myvideo").src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Moving_Octopus_Vulgaris_2005-01-14.ogv/Moving_Octopus_Vulgaris_2005-01-14.ogv.480p.webm";
 }
+
+document.querySelector("button").onclick= ()=>{
+console.log("hello");
+  
+}
