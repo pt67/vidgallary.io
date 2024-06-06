@@ -1,2 +1,2 @@
 # vidgallary.io
-Developed by prakash T
+build by prakash
